@@ -6,14 +6,12 @@ public class Rol {
     private String descripcion;
     
     public Rol() {}
-    //constructor con todas las propiedades
     public Rol(int id, String nombre, String descripcion) {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;
     }
 
-    //constructor sin la llave primaria
     public Rol(String nombre, String descripcion) {
         this.nombre = nombre;
         this.descripcion = descripcion;
